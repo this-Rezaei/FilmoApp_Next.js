@@ -6,7 +6,11 @@ module.exports = {
   mode:"jit"
   ,
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Poppins': ['"Poppins"', 'cursive']
+      }
+    },
   },
   plugins: [],
 }
