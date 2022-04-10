@@ -9,8 +9,12 @@ module.exports = {
     extend: {
       fontFamily: {
         'Poppins': ['"Poppins"', 'cursive']
+      },
+      screens:{
+        "3xl":"2000px"
       }
     },
+    
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 }
